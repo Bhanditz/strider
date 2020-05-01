@@ -59,7 +59,8 @@
     "deploy:docs": "npm run api-docs:md && npm run docs:build && npm run docs:publish",
     "debug": "node debug bin/strider --no-cluster",
     "release": "standard-version",
-    "prepublish": "in-publish && npm run build || not-in-publish"
+    "prepublish": "npm run snyk-protect && in-publish && npm run build || not-in-publish",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "activedirectory": "^0.7.2",
@@ -125,7 +126,8 @@
     "swig": "^0.14.0",
     "thirty-two": "^1.0.1",
     "validator": "^5.5.0",
-    "winston": "^2.2.0"
+    "winston": "^2.2.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "angular": "1.5.7",
@@ -156,5 +158,6 @@
     "surge": "^0.18.0",
     "watchify": "^3.4.0",
     "wd": "^0.4.0"
-  }
+  },
+  "snyk": true
 }

@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T01:34:55.041Z'
+    - async > lodash:
+        patched: '2020-05-01T01:34:55.041Z'
+    - strider-simple-runner > lodash:
+        patched: '2020-05-01T01:34:55.041Z'
+    - activedirectory > async > lodash:
+        patched: '2020-05-01T01:34:55.041Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-01T01:34:55.041Z'
+    - strider-bitbucket > async > lodash:
+        patched: '2020-05-01T01:34:55.041Z'
+    - strider-email-notifier > async > lodash:
+        patched: '2020-05-01T01:34:55.041Z'
+    - strider-gitlab > async > lodash:
+        patched: '2020-05-01T01:34:55.041Z'
+    - strider-email-notifier > lodash:
+        patched: '2020-05-01T01:34:55.041Z'
