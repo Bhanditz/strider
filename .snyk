@@ -1,0 +1,103 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - strider-extension-loader > less > request > extend:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:extend:20180424'
+        path: strider-extension-loader > less > request > extend
+    - strider-simple-runner > strider-extension-loader > less > request > extend:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          strider-simple-runner > strider-extension-loader > less > request >
+          extend
+  'npm:hoek:20180212':
+    - strider-extension-loader > less > request > hawk > hoek:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:hoek:20180212'
+        path: strider-extension-loader > less > request > hawk > hoek
+    - strider-extension-loader > less > request > hawk > boom > hoek:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:hoek:20180212'
+        path: strider-extension-loader > less > request > hawk > boom > hoek
+    - strider-extension-loader > less > request > hawk > sntp > hoek:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:hoek:20180212'
+        path: strider-extension-loader > less > request > hawk > sntp > hoek
+    - strider-simple-runner > strider-extension-loader > less > request > hawk > hoek:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          strider-simple-runner > strider-extension-loader > less > request >
+          hawk > hoek
+    - strider-simple-runner > strider-extension-loader > less > request > hawk > boom > hoek:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          strider-simple-runner > strider-extension-loader > less > request >
+          hawk > boom > hoek
+    - strider-simple-runner > strider-extension-loader > less > request > hawk > sntp > hoek:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          strider-simple-runner > strider-extension-loader > less > request >
+          hawk > sntp > hoek
+  'npm:mime:20170907':
+    - strider-extension-loader > less > mime:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:mime:20170907'
+        path: strider-extension-loader > less > mime
+    - strider-simple-runner > strider-extension-loader > less > mime:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:mime:20170907'
+        path: strider-simple-runner > strider-extension-loader > less > mime
+  'npm:moment:20161019':
+    - activedirectory > bunyan > moment:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:moment:20161019'
+        path: activedirectory > bunyan > moment
+  'npm:qs:20170213':
+    - strider-extension-loader > less > request > qs:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:qs:20170213'
+        path: strider-extension-loader > less > request > qs
+    - strider-simple-runner > strider-extension-loader > less > request > qs:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:qs:20170213'
+        path: strider-simple-runner > strider-extension-loader > less > request > qs
+  'npm:stringstream:20180511':
+    - strider-extension-loader > less > request > stringstream:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:stringstream:20180511'
+        path: strider-extension-loader > less > request > stringstream
+    - strider-simple-runner > strider-extension-loader > less > request > stringstream:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          strider-simple-runner > strider-extension-loader > less > request >
+          stringstream
+  'npm:tough-cookie:20170905':
+    - strider-extension-loader > less > request > tough-cookie:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:tough-cookie:20170905'
+        path: strider-extension-loader > less > request > tough-cookie
+    - strider-simple-runner > strider-extension-loader > less > request > tough-cookie:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          strider-simple-runner > strider-extension-loader > less > request >
+          tough-cookie
+  'npm:tunnel-agent:20170305':
+    - strider-extension-loader > less > request > tunnel-agent:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: strider-extension-loader > less > request > tunnel-agent
+    - strider-simple-runner > strider-extension-loader > less > request > tunnel-agent:
+        patched: '2023-08-30T14:58:18.843Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          strider-simple-runner > strider-extension-loader > less > request >
+          tunnel-agent
