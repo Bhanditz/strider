@@ -124,7 +124,7 @@
     "strider-ssh-deploy": "^1.0.0",
     "swig": "^0.14.0",
     "thirty-two": "^1.0.1",
-    "validator": "^5.5.0",
+    "validator": "^13.15.22",
     "winston": "^2.2.0"
   },
   "devDependencies": {
